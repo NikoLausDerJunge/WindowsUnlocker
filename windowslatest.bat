@@ -38,6 +38,7 @@ slmgr /skms localhost
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr /skms kms.digiboy.ir
 slmgr /ato
+slmgr /skms ""
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Batch Script', 'Your Windows should be activated if this is not the case then you have entered the wrong version', [System.Windows.Forms.ToolTipIcon]::None)}"
 exit
 :key-home
@@ -49,4 +50,6 @@ slmgr /skms localhost
 slmgr /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 slmgr /skms kms.digiboy.ir
 slmgr /ato
+slmgr /skms ""
+
 exit
